@@ -1,0 +1,17 @@
+replicaCount: 1
+image:
+  repository: quay.io/ortelius/scec-nginx
+  tag: svccat-v10.0.147-g7f6342
+  pullPolicy: Always
+  sha: sha256:41b05161ad2a01a9e5929ef26d4e4e2b9a88e2e45da508f89cca619740750a86
+ingress:
+  enum:
+    alb: "OFF"
+    glb: "OFF"
+    volumemnt: ""
+    sslcert: "ON"
+    ssloff: "OFF"
+  type: ssloff
+  alb_certificate_arn: null
+  alb_subnets: null
+  dnsname: console.ortelius.io
