@@ -15,8 +15,4 @@ spec:
       {{ end }}
       protocol: TCP
       name: http
-    - port: 443
-      targetPort: 443
-      protocol: TCP
-      name: https
   type: NodePort

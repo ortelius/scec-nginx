@@ -1,6 +1,5 @@
 FROM nginx:alpine
 EXPOSE 80
-EXPOSE 443
 
 WORKDIR /etc/nginx/
 
