@@ -2,6 +2,15 @@ apiVersion: v1
 entries:
   scec-nginx:
   - apiVersion: v1
+    appVersion: 11.0.379
+    created: "2025-05-16T20:03:27.855454751Z"
+    description: A Helm chart for Kubernetes
+    digest: 92f6f27b08aafbeeeed9cc191053ef55745241739d85ec627e02fcdd3505848c
+    name: scec-nginx
+    urls:
+    - https://github.com/ortelius/scec-nginx/releases/download/scec-nginx-11.0.379/scec-nginx-11.0.379.tgz
+    version: 11.0.379
+  - apiVersion: v1
     appVersion: 11.0.377
     created: "2025-05-05T05:28:50.744091013Z"
     description: A Helm chart for Kubernetes
@@ -1513,4 +1522,4 @@ entries:
     urls:
     - https://github.com/ortelius/scec-nginx/releases/download/scec-nginx-11.0.2/scec-nginx-11.0.2.tgz
     version: 11.0.2
-generated: "2025-05-05T05:28:50.743163765Z"
+generated: "2025-05-16T20:03:27.855014505Z"
