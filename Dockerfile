@@ -1,4 +1,4 @@
-FROM nginx:alpine@sha256:52175fc0394e97029664721dfdb76a8af1e3045532ab5fb2249e555d50f347bc
+FROM nginx:alpine@sha256:7c1b9a91514d1eb5288d7cd6e91d9f451707911bfaea9307a3acbc811d4aa82e
 EXPOSE 80
 
 WORKDIR /etc/nginx/
